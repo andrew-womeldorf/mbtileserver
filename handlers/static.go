@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-//go:embed templates/static/dist
+//go:embed templates/static/dist/*
 var staticAssets embed.FS
 
 // staticHandler returns a handler that retrieves static files from the virtual
